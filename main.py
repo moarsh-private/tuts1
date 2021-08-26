@@ -10,7 +10,7 @@ def home():
     return "Hello Mostafa Arshadi. from heroku"
 
 @app.route("/hi")
-def home():
+def hi():
     return requests.get("https://google.com").text
 
 
